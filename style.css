@@ -1,0 +1,86 @@
+.logo {
+  float: left;
+  width: 25%;
+  height: 25px;
+  padding: 8px;
+}
+.logo > img {
+  width: 25;
+  height: 20;
+}
+
+.grow-list {
+  width: 55%;
+  float: left;
+  justify-content: space-between;
+}
+.list {
+  margin: 0%;
+  padding: 0%;
+  list-style-type: none;
+  overflow: hidden;
+}
+.list-item {
+  color: darkgray;
+  float: left;
+  text-align: center;
+  padding: 25px;
+  padding-right: 50px;
+  text-decoration: none;
+}
+.list-item:first-child {
+  color: black;
+}
+.button-group {
+  width: 15%;
+  float: right;
+  top: 20px;
+  position: relative;
+}
+.nav-button {
+  padding-top: 10px;
+  padding-left: 15px;
+  padding-bottom: 10px;
+  padding-right: 15px;
+  border-spacing: right;
+  border: none;
+  color: #ffff;
+  border-radius: 6px;
+  background-color: blueviolet;
+}
+.split {
+  height: 80%;
+  width: 50%;
+  position: fixed;
+  top: 10vh;
+}
+.right {
+  top: 20vh;
+  right: 0%;
+}
+.right > img {
+  width: 98%;
+  height: 98%;
+}
+.left {
+  top: 30vh;
+  left: 5%;
+}
+.heading-text {
+  font-size: 35px;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-word;
+  width: 30%;
+  color: rgb(71, 49, 94);
+}
+.heading-text span {
+  color: blueviolet;
+}
+.description {
+  color: darkgray;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-word;
+  width: 40%;
+}
